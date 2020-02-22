@@ -1,0 +1,591 @@
+@font-face {
+  font-family: "BoutrosAsma";
+  src: url("Fonts/BoutrosAsma.ttf");
+}
+@font-face {
+  font-family: "GE-Flow-Bold";
+  src: url("Fonts/GE-Flow-Bold.otf");
+}
+@font-face {
+  font-family: "GE-Flow-Regular";
+  src: url("Fonts/GE-Flow-Regular.otf");
+}
+@font-face {
+  font-family: "Panton-LightitalicCaps";
+  src: url("Fonts/Panton-LightitalicCaps.otf");
+}
+.navbar {
+  background-color: white;
+  margin-bottom: 0px;
+}
+.navbar .navbar-header {
+  width: 100%;
+  position: relative;
+}
+.navbar .navbar-header .logo {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+}
+.navbar .navbar-header .logo .navbar-brand {
+  padding: 10px 15px;
+}
+.navbar .navbar-header .logo .navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+.navbar .items ul li a {
+  color: black;
+  font-family: "BoutrosAsma";
+  font-size: 12px;
+  font-weight: bold;
+}
+.navbar .items ul .searchIcon {
+  padding-left: 0px;
+}
+
+.firstSection {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.firstSection .leftPic {
+  padding-left: 0px;
+  margin-top: 156px;
+  margin-bottom: 63px;
+}
+.firstSection .leftPic .picAli {
+  padding-left: 0px;
+}
+.firstSection .leftPic .picAli img {
+  width: 100%;
+  height: auto;
+}
+.firstSection .leftPic .paragraph {
+  padding-top: 25px;
+}
+.firstSection .leftPic .paragraph h4 {
+  color: black;
+  font-family: "BoutrosAsma";
+  font-size: 27px;
+  margin-bottom: 15px;
+  padding-right: 15px;
+  border-right: 6px solid #f58357;
+  border-radius: 5%;
+}
+.firstSection .leftPic .paragraph p {
+  color: black;
+  font-family: "BoutrosAsma";
+  font-size: 13px;
+}
+
+.firstSection .rightPic {
+  padding-right: 0px;
+}
+.firstSection .rightPic img {
+  width: 100%;
+  height: auto;
+}
+
+.secondSection {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.secondSection img {
+  width: 100%;
+  height: auto;
+}
+.secondSection .playBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.secondSection .playBtn span:before {
+  color: #f58357;
+  font-size: 80px;
+  cursor: pointer;
+}
+.secondSection .modal-content {
+  width: 100%;
+  background-color: black;
+}
+.secondSection .modal-header {
+  padding: 3px;
+  border: none;
+  background-color: black;
+}
+.secondSection .backgroundVideo2 {
+  height: 450px;
+}
+.secondSection .close {
+  color: whitesmoke;
+  opacity: 100%;
+}
+.secondSection .modal-footer {
+  border-top: none;
+}
+
+.thirdSection {
+  width: 100%;
+  padding-top: 35px;
+}
+.thirdSection h5 {
+  float: right;
+  font-family: "BoutrosAsma";
+  font-size: 30px;
+  color: black;
+  padding-top: 25px;
+  padding-right: 20px;
+}
+.thirdSection .background {
+  position: relative;
+  width: 100%;
+  height: 625px;
+  background-image: url("Images/shows.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.thirdSection .background .shows {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+}
+.thirdSection .background .shows .show1 {
+  float: right;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  box-sizing: border-box;
+}
+.thirdSection .background .shows .show1 .image {
+  padding: 0px;
+  height: 150px;
+  float: right;
+  background-image: url("Images/show11.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.thirdSection .background .shows .show1 ul {
+  list-style-type: none;
+  padding-top: 15px;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+.thirdSection .background .shows .show1 ul li {
+  font-family: "BoutrosAsma";
+  color: black;
+  font-size: 14px;
+}
+.thirdSection .background .shows .show1 ul .title {
+  color: white;
+  font-size: 25px;
+}
+.thirdSection .background .shows .show1 ul .icon::before {
+  color: white;
+  font-size: 30px;
+}
+.thirdSection .background .shows .show2 {
+  float: right;
+  position: absolute;
+  top: 30%;
+  right: 45%;
+  box-sizing: border-box;
+}
+.thirdSection .background .shows .show2 .image {
+  padding: 0px;
+  height: 150px;
+  float: right;
+  background-image: url("Images/show22.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.thirdSection .background .shows .show2 ul {
+  list-style-type: none;
+  padding-top: 15px;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+.thirdSection .background .shows .show2 ul li {
+  font-family: "BoutrosAsma";
+  color: black;
+  font-size: 14px;
+}
+.thirdSection .background .shows .show2 ul .title {
+  color: #f58357;
+  font-size: 25px;
+}
+.thirdSection .background .shows .show2 ul .icon::before {
+  color: #f58357;
+  font-size: 30px;
+}
+
+.fourthSection {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 5px;
+  position: relative;
+}
+.fourthSection h5 {
+  font-family: "BoutrosAsma";
+  font-size: 30px;
+  color: black;
+  padding-top: 0px;
+  padding-right: 20px;
+}
+.fourthSection .creativeParent {
+  margin-top: 15px;
+}
+.fourthSection .creativeParent .creativePara {
+  padding-top: 15px;
+}
+.fourthSection .creativeParent .creativePara h4 {
+  font-family: "BoutrosAsma";
+  font-size: 22px;
+  padding-right: 15px;
+}
+.fourthSection .creativeParent .creativePara p {
+  font-family: "BoutrosAsma";
+  font-size: 13px;
+  padding-right: 15px;
+}
+.fourthSection .creativeParent .creativePara .icon2::before {
+  display: block;
+  padding-right: 15px;
+  font-size: 30px;
+  color: #f58357;
+}
+.fourthSection .creativeParent .creativeImage {
+  padding-right: 0px;
+}
+.fourthSection .creativeParent .creativeImage img {
+  width: 100%;
+  height: auto;
+}
+
+.fifthSection {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+  margin-top: 15px;
+}
+.fifthSection h3 {
+  color: white;
+  font-family: "BoutrosAsma";
+  font-size: 25px;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 20px;
+}
+.fifthSection .slideImageParent {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.fifthSection .slideImageParent .slideImage {
+  display: none;
+  overflow: hidden;
+  text-align: center;
+}
+.fifthSection .slideImageParent .slideImage img {
+  width: 50%;
+  height: auto;
+}
+.fifthSection .para3 {
+  margin-top: 30px;
+}
+.fifthSection .para3 p {
+  padding-right: 25px;
+  font-family: "BoutrosAsma";
+  font-size: 21px;
+  color: white;
+}
+.fifthSection .imagesParent {
+  overflow: hidden;
+  padding: 0px;
+  padding-bottom: 25px;
+}
+.fifthSection .imagesParent .imageChild {
+  padding: 0px;
+}
+.fifthSection .imagesParent .imageChild img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.fifthSection .demo {
+  opacity: 0.6;
+}
+.fifthSection .demo:hover {
+  opacity: 1;
+}
+.fifthSection .active {
+  opacity: 1;
+}
+.fifthSection .preBtn {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  margin: 10px;
+  cursor: pointer;
+}
+.fifthSection .preBtn img {
+  width: 50%;
+  height: auto;
+}
+.fifthSection .preBtn:hover {
+  opacity: 0.6;
+}
+.fifthSection .nextBtn {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  margin: 10px;
+}
+.fifthSection .nextBtn img {
+  width: 50%;
+  height: auto;
+}
+.fifthSection .nextBtn:hover {
+  opacity: 0.6;
+}
+
+.sixthSection {
+  width: 100%;
+  overflow: visible;
+  position: relative;
+}
+.sixthSection h4 {
+  font-size: 25px;
+  font-family: "BoutrosAsma";
+  color: black;
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.sixthSection .blogParent {
+  position: relative;
+  overflow: visible;
+}
+.sixthSection .blogParent .imageBlog {
+  position: absolute;
+  top: 190px;
+  left: 0px;
+  padding: 0px;
+  display: none;
+}
+.sixthSection .blogParent .imageBlog img {
+  width: 100%;
+  height: auto;
+}
+.sixthSection .blogParent .videoBlog {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 0px;
+  display: none;
+}
+.sixthSection .blogParent .videoBlog img {
+  width: 100%;
+  height: auto;
+}
+.sixthSection .blogParent .videoBlog .playBtn2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sixthSection .blogParent .videoBlog .playBtn2 span::before {
+  font-size: 80px;
+  color: white;
+  cursor: pointer;
+}
+.sixthSection .blogParent .videoBlog .backgroundVideo21 {
+  height: 450px;
+  background-color: black;
+}
+.sixthSection .blogParent .videoBlog .modal-content {
+  background-color: black;
+  border-top: 0px;
+}
+.sixthSection .blogParent .videoBlog .modal-header {
+  background-color: black;
+  border-bottom: 0px;
+}
+.sixthSection .blogParent .videoBlog .modal-footer {
+  border: 0px;
+}
+.sixthSection .blogParent .paragraph4 {
+  position: absolute;
+  top: 610px;
+  right: 0px;
+}
+.sixthSection .blogParent .paragraph4 p {
+  font-family: "BoutrosAsma";
+  font-size: 12px;
+  color: black;
+  padding-right: 20px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+.sixthSection .blogParent .footer {
+  width: 100%;
+  position: absolute;
+  top: 650px;
+  right: 0px;
+}
+.sixthSection .blogParent .footer h3 {
+  font-family: "BoutrosAsma";
+  font-size: 25px;
+  color: black;
+}
+.sixthSection .blogParent .footer .buttons button {
+  background-color: #f58357;
+  margin: 10px;
+}
+.sixthSection .blogParent .footer .buttons button:hover {
+  background-color: tomato;
+}
+.sixthSection .blogParent .preBtn2 {
+  width: 6%;
+  position: absolute;
+  top: 60px;
+  left: 110px;
+  cursor: pointer;
+}
+.sixthSection .blogParent .preBtn2 img {
+  width: 100%;
+  height: auto;
+}
+.sixthSection .blogParent .nextBtn2 {
+  width: 6%;
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  cursor: pointer;
+}
+.sixthSection .blogParent .nextBtn2 img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 620px) {
+  .fourthSection .creativeParent .creativePara {
+    padding: 0px;
+  }
+  .fourthSection .creativeParent .creativePara h4 {
+    font-size: 14px;
+  }
+  .fourthSection .creativeParent .creativePara p {
+    font-size: 9px;
+  }
+}
+@media (max-width: 992px) {
+  .thirdSection .background .shows .show1 {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    margin-left: 10px;
+  }
+  .thirdSection .background .shows .show1 .image {
+    background-position: right bottom;
+  }
+  .thirdSection .background .shows .show1 ul li {
+    font-size: 11px;
+  }
+  .thirdSection .background .shows .show1 ul .title {
+    font-size: 20px;
+  }
+  .thirdSection .background .shows .show2 {
+    position: absolute;
+    top: 10%;
+    right: 52%;
+    margin-right: 10px;
+  }
+  .thirdSection .background .shows .show2 .image {
+    background-position: right bottom;
+  }
+  .thirdSection .background .shows .show2 ul li {
+    font-size: 13px;
+  }
+  .thirdSection .background .shows .show2 ul .title {
+    font-size: 22px;
+  }
+}
+@media (min-width: 992px) {
+  .firstSection .leftPic {
+    float: left;
+  }
+  .firstSection .rightPic {
+    float: right;
+  }
+}
+@media (max-width: 770px) {
+  .firstSection .leftPic {
+    margin-top: 70px;
+  }
+  .firstSection .leftPic .paragraph {
+    padding-top: 15px;
+  }
+  .firstSection .leftPic .paragraph h4 {
+    font-size: 22px;
+  }
+  .firstSection .leftPic .paragraph p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 594px) {
+  .firstSection .leftPic {
+    margin-top: 50px;
+  }
+  .firstSection .leftPic .paragraph {
+    padding-top: 10px;
+  }
+  .firstSection .leftPic .paragraph h4 {
+    font-size: 20px;
+  }
+  .firstSection .leftPic .paragraph p {
+    font-size: 9px;
+  }
+}
+@media (max-width: 480px) {
+  .firstSection .leftPic {
+    margin-top: 40px;
+  }
+  .firstSection .leftPic .paragraph {
+    padding-top: 5px;
+  }
+  .firstSection .leftPic .paragraph h4 {
+    font-size: 15px;
+  }
+  .firstSection .leftPic .paragraph p {
+    font-size: 7px;
+  }
+}
+@media (max-width: 992px) {
+  .firstSection .rightPic {
+    padding: 40px 40px;
+    padding-top: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar .navbar-header .navbar-toggle {
+    float: left;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

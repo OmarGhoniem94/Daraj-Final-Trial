@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Home AR | Daraj</title>
+    <link rel="icon" href="Images/logoHigh.jpg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Icons\my-icons-collection\font/flaticon.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="flaticon-menu"></span>
+                </button>
+                <div class="logo">
+                    <a class="navbar-brand" href="#"><img src="Images/logo_black.png" alt="logo"></a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse items" id="myNavbar">
+                <ul class="nav navbar-nav navbar-left" dir="rtl">
+                    <li><a href="#">Multimedia</a></li>
+                    <li><a href="#">رادار</a></li>
+                    <li><a href="#">هامش</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" dir="rtl">
+                    <li><a href="#">دنيا</a></li>
+                    <li><a href="#">على الدرج</a></li>
+                    <li><a href="#">قصصنا</a></li>
+                    <li><a href="#" class="searchIcon"><span class="flaticon-magnifying-glass"></span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="firstSection">
+        <div class="contianer-fluid">
+            <div class="col-xs-12 col-md-4 rightPic">
+                <img src="Images/1stPic.png" alt="Photo-Show">
+            </div>
+            <div class="col-md-8 col-xs-12 leftPic">
+                <div class="col-md-5 col-xs-5 picAli">
+                    <img src="Images/2ndPic.png" alt="Photo-Ali">
+                </div>
+                <div class="col-md-7 col-xs-7 paragraph">
+                    <h4 dir="rtl">من هو</h4>
+                    <p dir="rtl">ذات فكانت بالمحور الفرنسية في بل اضف الارضية الاولية تشيكوسلوفاكيا تحرك و النفيس و
+                        النرويج اي بعض
+                        بل عرض حصدت استعملت عل حدي فرنسا انتباه الشتاء و قد اليمني الحيلولة هو مكن قد بقسوة السفن
+                        المعاهدات ثم جنوب السيطرة علي المدن يقوم الاثنان بين قد جيما اسيا للسيطرة اي خل</p>
+                    <p dir="rtl">ذات فكانت بالمحور الفرنسية في بل اضف الارضية الاولية تشيكوسلوفاكيا تحرك و النفيس و
+                        النرويج اي بعض
+                        بل عرض حصدت استعملت عل حدي فرنسا انتباه الشتاء و قد اليمني الحيلولة هو مكن قد بقسوة السفن
+                        المعاهدات ثم جنوب السيطرة علي المدن يقوم الاثنان بين قد جيما اسيا للسيطرة اي خل</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="secondSection">
+        <div class="backgroundVideo">
+            <img src="Images/video1.png" alt="Photo-video">
+            <div class="playBtn" data-toggle="modal" data-target="#myModal" onclick="playVid()">
+                <span class="flaticon-play-button"></span>
+            </div>
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"
+                                onclick="pauseVid()">&times;</button>
+                        </div>
+                        <div class="modal-body backgroundVideo2 embed-responsive embed-responsive-16by9">
+                            <video controls="controls" class="embed-responsive-item" width="1280" height="720"
+                                id="myVideo">
+                                <source src="Videos/Ali_Video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default btn-danger btn-block" data-dismiss="modal"
+                                onclick="pauseVid()">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thirdSection">
+        <h5 dir="rtl">عروض</h5>
+        <div class="background">
+            <div class="shows">
+                <div class="col-xs-6 col-md-6 show1">
+                    <div class="col-xs-12 col-md-5 image">
+                    </div>
+                    <ul class="col-xs-12 col-md-7" dir="rtl">
+                        <li class="title">وفاة ليلى</li>
+                        <li>مدة العرض</li>
+                        <li>يناير 22-23-24</li>
+                        <li>5:30م</li>
+                        <li>بيروت - المدينة المنورة</li>
+                        <li><span class="flaticon-previous icon"></span></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-6 show2">
+                    <div class="col-xs-12 col-md-5 image">
+                    </div>
+                    <ul class="col-xs-12 col-md-7" dir="rtl">
+                        <li class="title">فاطمة</li>
+                        <li>مدة العرض</li>
+                        <li>يناير 22-23-24</li>
+                        <li>5:30م</li>
+                        <li>بيروت - المدينة المنورة</li>
+                        <li><span class="flaticon-previous icon"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fourthSection">
+        <h5 dir="rtl">ابداعات</h5>
+        <div class="col-xs-12 creativeParent">
+            <div class="col-xs-8 creativePara">
+                <h4 dir="rtl">قد يشرق و يشم الرائحة</h4>
+                <p dir="rtl">ذات فكانت بالمحور الفرنسية في بل اضف الارضية الاولية تشيكوسلوفاكيا تحرك و النفيس و
+                    النرويج اي بعض
+                    بل عرض حصدت استعملت عل حدي فرنسا انتباه الشتاء و قد اليمني الحيلولة هو مكن قد بقسوة السفن
+                    المعاهدات ثم جنوب السيطرة علي المدن يقوم الاثنان بين قد جيما اسيا للسيطرة اي خل</p>
+                <span dir="rtl" class="flaticon-previous icon2"></span>
+            </div>
+            <div class="col-xs-4 creativeImage">
+                <img src="Images/1stPic.png" alt="Creative-Photo">
+            </div>
+        </div>
+        <div class="col-xs-12 creativeParent">
+            <div class="col-xs-8 creativePara">
+                <h4 dir="rtl">قد يشرق و يشم الرائحة</h4>
+                <p dir="rtl">ذات فكانت بالمحور الفرنسية في بل اضف الارضية الاولية تشيكوسلوفاكيا تحرك و النفيس و
+                    النرويج اي بعض
+                    بل عرض حصدت استعملت عل حدي فرنسا انتباه الشتاء و قد اليمني الحيلولة هو مكن قد بقسوة السفن
+                    المعاهدات ثم جنوب السيطرة علي المدن يقوم الاثنان بين قد جيما اسيا للسيطرة اي خل</p>
+                <span dir="rtl" class="flaticon-previous icon2"></span>
+            </div>
+            <div class="col-xs-4 creativeImage">
+                <img src="Images/1stPic.png" alt="Creative-Photo">
+            </div>
+        </div>
+        <div class="col-xs-12 creativeParent">
+            <div class="col-xs-8 creativePara">
+                <h4 dir="rtl">قد يشرق و يشم الرائحة</h4>
+                <p dir="rtl">ذات فكانت بالمحور الفرنسية في بل اضف الارضية الاولية تشيكوسلوفاكيا تحرك و النفيس و
+                    النرويج اي بعض
+                    بل عرض حصدت استعملت عل حدي فرنسا انتباه الشتاء و قد اليمني الحيلولة هو مكن قد بقسوة السفن
+                    المعاهدات ثم جنوب السيطرة علي المدن يقوم الاثنان بين قد جيما اسيا للسيطرة اي خل</p>
+                <span dir="rtl" class="flaticon-previous icon2"></span>
+            </div>
+            <div class="col-xs-4 creativeImage">
+                <img src="Images/1stPic.png" alt="Creative-Photo">
+            </div>
+        </div>
+        <div class="col-xs-12 creativeParent">
+            <div class="col-xs-8 creativePara">
+                <h4 dir="rtl">قد يشرق و يشم الرائحة</h4>
+                <p dir="rtl">ذات فكانت بالمحور الفرنسية في بل اضف الارضية الاولية تشيكوسلوفاكيا تحرك و النفيس و
+                    النرويج اي بعض
+                    بل عرض حصدت استعملت عل حدي فرنسا انتباه الشتاء و قد اليمني الحيلولة هو مكن قد بقسوة السفن
+                    المعاهدات ثم جنوب السيطرة علي المدن يقوم الاثنان بين قد جيما اسيا للسيطرة اي خل</p>
+                <span dir="rtl" class="flaticon-previous icon2"></span>
+            </div>
+            <div class="col-xs-4 creativeImage">
+                <img src="Images/1stPic.png" alt="Creative-Photo">
+            </div>
+        </div>
+    </div>
+    <div class="fifthSection">
+        <h3 dir="rtl">خلف الكواليس</h3>
+        <div class="slideImageParent">
+            <div class="slideImage">
+                <img src="Images/slide1.jpg" alt="Slide-Photo">
+            </div>
+            <div class="slideImage">
+                <img src="Images/slide2.jpg" alt="Slide-Photo">
+            </div>
+            <div class="slideImage">
+                <img src="Images/slide3.jpg" alt="Slide-Photo">
+            </div>
+            <div class="slideImage">
+                <img src="Images/slide4.jpg" alt="Slide-Photo">
+            </div>
+            <div class="slideImage">
+                <img src="Images/slide5.jpg" alt="Slide-Photo">
+            </div>
+            <div class="slideImage">
+                <img src="Images/slide6.jpg" alt="Slide-Photo">
+            </div>
+        </div>
+        <div class="col-xs-8 col-xs-offset-2 para3">
+            <p dir="rtl" id="paragraph"></p>
+        </div>
+        <div class="col-xs-4 col-xs-offset-4 imagesParent">
+            <div class="col-xs-2 imageChild">
+                <img class="demo cursor slide1" src="Images/slide1.jpg" alt="صورة 1" onclick="currentSlide(1)">
+            </div>
+            <div class="col-xs-2 imageChild">
+                <img class="demo cursor slide2" src="Images/slide2.jpg" alt="صورة 2" onclick="currentSlide(2)">
+            </div>
+            <div class="col-xs-2 imageChild">
+                <img class="demo cursor slide3" src="Images/slide3.jpg" alt="صورة 3" onclick="currentSlide(3)">
+            </div>
+            <div class="col-xs-2 imageChild">
+                <img class="demo cursor slide4" src="Images/slide4.jpg" alt="صورة 4" onclick="currentSlide(4)">
+            </div>
+            <div class="col-xs-2 imageChild">
+                <img class="demo cursor slide5" src="Images/slide5.jpg" alt="صورة 5" onclick="currentSlide(5)">
+            </div>
+            <div class="col-xs-2 imageChild">
+                <img class="demo cursor slide6" src="Images/slide6.jpg" alt="صورة 6" onclick="currentSlide(6)">
+            </div>
+        </div>
+        <div class="preBtn" onclick="plusSlide(-1)"><img src="Images/prebtn.png" alt="prebtn"></div>
+        <div class="nextBtn" onclick="plusSlide(1)"><img src="Images/nextbtn.png" alt="nextbtn"></div>
+    </div>
+    <div class="sixthSection">
+        <h4 dir="rtl">مدونة فيديو من علي</h4>
+        <div class="blogParent">
+            <div class="col-xs-5 imageBlog">
+                <img src="Images/blog1.jpg">
+            </div>
+            <div class="col-xs-5 imageBlog">
+                <img src="Images/blog2.jpg">
+            </div>
+            <div class="col-xs-5 imageBlog">
+                <img src="Images/blog3.jpg">
+            </div>
+            <div class="col-xs-7 videoBlog">
+                <img class="word" src="Images/slide3.jpg" alt="بلوج 1">
+                <div class="playBtn2" data-toggle="modal" data-target="#myModal1" onclick="playVid1()">
+                    <span class="flaticon-play-button-1"></span>
+                </div>
+                <div class="modal fade" id="myModal1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                    onclick="pauseVid1()">&times;</button>
+                            </div>
+                            <div class="modal-body backgroundVideo21 embed-responsive embed-responsive-16by9">
+                                <video controls="controls" class="embed-responsive-item" width="1280" height="720"
+                                    id="video1">
+                                    <source src="Videos/video1.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default btn-danger btn-block" data-dismiss="modal"
+                                    onclick="pauseVid1()">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-7 videoBlog">
+                <img class="word" src="Images/slide4.jpg" alt="بلوج 2">
+                <div class="playBtn2" data-toggle="modal" data-target="#myModal2" onclick="playVid2()">
+                    <span class="flaticon-play-button-1"></span>
+                </div>
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                    onclick="pauseVid2()">&times;</button>
+                            </div>
+                            <div class="modal-body backgroundVideo21 embed-responsive embed-responsive-16by9">
+                                <video controls="controls" class="embed-responsive-item" width="1280" height="720"
+                                    id="video2">
+                                    <source src="Videos/video2.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default btn-danger btn-block" data-dismiss="modal"
+                                    onclick="pauseVid2()">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-7 videoBlog">
+                <img class="word" src="Images/slide5.jpg" alt="بلوج 3">
+                <div class="playBtn2" data-toggle="modal" data-target="#myModal3" onclick="playVid3()">
+                    <span class="flaticon-play-button-1"></span>
+                </div>
+                <div class="modal fade" id="myModal3" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                    onclick="pauseVid3()">&times;</button>
+                            </div>
+                            <div class="modal-body backgroundVideo21 embed-responsive embed-responsive-16by9">
+                                <video controls="controls" class="embed-responsive-item" width="1280" height="720"
+                                    id="video3">
+                                    <source src="Videos/video3.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default btn-danger btn-block" data-dismiss="modal"
+                                    onclick="pauseVid3()">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="paragraph4">
+                <p dir="rtl" id="paragraph2"></p>
+            </div>
+            <div class="preBtn2" onclick="plusBlog(-1); plusVideo(-1)"><img src="Images/prebtn.png" alt="prebtn"></div>
+            <div class="nextBtn2" onclick="plusBlog(1); plusVideo(1)"><img src="Images/nextbtn.png" alt="nextbtn"></div>
+            <div class="footer">
+                <h3 dir="rtl" class="text-center">المجموعة اعمية</h3>
+                <div class="buttons text-center">
+                    <button class="btn btn-danger">download.pdf</button>
+                    <button class="btn btn-danger">download.pdf</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Index.js"></script>
+
+</html>
